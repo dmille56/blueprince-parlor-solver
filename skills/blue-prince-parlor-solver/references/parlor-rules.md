@@ -4,6 +4,12 @@
 
 The puzzle has three boxes: blue, white, and black.
 
+Fixed layout:
+
+- Blue box = left
+- White box = center
+- Black box = right
+
 - There will always be at least one box which displays only true statements.
 - There will always be at least one box which displays only false statements.
 - Only one box has a prize within. The other two are always empty.

@@ -5,9 +5,9 @@
 Input:
 
 ```text
-Blue: The gems are in the white box.
-White: The black box is empty.
-Black: The gems are in the blue box.
+Left/Blue: The gems are in the white box.
+Center/White: The black box is empty.
+Right/Black: The gems are in the blue box.
 ```
 
 Evaluation:
@@ -30,9 +30,9 @@ Reason: each candidate has at least one all-true box and at least one all-false 
 Input:
 
 ```text
-Blue: The gems are in this box.
-White: The gems are in the black box.
-Black: The blue box is empty.
+Left/Blue: The gems are in this box.
+Center/White: The gems are in the black box.
+Right/Black: The blue box is empty.
 ```
 
 Evaluation:
@@ -55,9 +55,9 @@ Reason: each candidate has at least one all-true box and at least one all-false 
 Input:
 
 ```text
-Blue: The gems are in the white box.
-White: The gems are not in the black box.
-Black: The gems are in the white box.
+Left/Blue: The gems are in the white box.
+Center/White: The gems are not in the black box.
+Right/Black: The gems are in the white box.
 ```
 
 Evaluation:
@@ -80,9 +80,9 @@ Reason: Only the blue candidate has at least one all-true box and at least one a
 Input:
 
 ```text
-Blue: This box is empty. The gems are in the white box.
-White: The black box is empty.
-Black: The gems are in the blue box.
+Left/Blue: This box is empty. The gems are in the white box.
+Center/White: The black box is empty.
+Right/Black: The gems are in the blue box.
 ```
 
 Evaluation note:

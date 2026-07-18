@@ -4,6 +4,8 @@ Agent skill for solving the Blue Prince Parlor Puzzle in Claude Code, OpenCode, 
 
 The skill takes the words written on the blue, white, and black boxes and returns which box contains the gems, if the rules determine a unique answer.
 
+Fixed layout: blue is left, white is center, black is right.
+
 ## Skill Input
 
 Provide all three box texts:

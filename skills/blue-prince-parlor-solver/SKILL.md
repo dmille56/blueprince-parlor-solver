@@ -12,9 +12,17 @@ metadata:
 
 Solve the Blue Prince Parlor Puzzle from the exact words written on the three boxes.
 
+## Box Order
+
+Use this fixed layout when interpreting input:
+
+- Blue box = left
+- White box = center
+- Black box = right
+
 ## Required Input
 
-Ask for missing box text before solving. You need all three:
+Ask for missing box text before solving. You need all three in left-to-right order:
 
 ```text
 Blue: <words on the blue box>
@@ -31,7 +39,7 @@ Black: <words on the black box>
 
 ## Solve Method
 
-Evaluate each possible gem location: blue, white, then black.
+Evaluate each possible gem location: blue, white, then black. Use the fixed box order above when summarizing or explaining the puzzle.
 
 For each candidate location:
 
